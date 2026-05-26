@@ -90,4 +90,3 @@ mallee> type error: cannot construct the infinite type 'a = 'a -> 'b
 ## Licence
 
 MIT.
-

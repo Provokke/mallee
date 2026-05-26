@@ -19,4 +19,3 @@ let rec loop env =
 let () =
   print_endline "mallee: type inference REPL (:quit to leave)";
   loop Mallee.Check.initial_env
-

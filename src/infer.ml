@@ -134,4 +134,3 @@ let rec infer (env : env) (expr : Ast.expr) : subst * ty =
       let s4 = unify (apply s ty) (apply s tn) in
       let s = compose s4 s in
       (s, apply s ty)
-
